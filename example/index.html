@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>bridge 示例</title>
+</head>
+
+<body>
+  <div id="bridge-container" class="bridge-container">
+  </div>
+  <script src="http://n3.static.pg0.cn/fp/jquery/dist/jquery-1.9.1.js"></script>
+  <script src="../dist/bridge.js"></script>
+  <script>
+	var bridge = new Bridge();
+	bridge.ShowShareToolbar('title','url','content','pic');
+	bridge.ShowCommentToolbar('title','url','content','pic');
+  </script>
+</body>
+
+</html>
